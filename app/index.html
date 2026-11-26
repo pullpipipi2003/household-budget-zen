@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZenithBudget - Household Financial Planner</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="brand">
+    <span class="logo-icon">💰</span>
+    <span class="brand-name">ZenithBudget</span>
+    <span class="badge">Family Vault</span>
+  </div>
+  <nav class="nav-links">
+    <button class="nav-btn active" data-view="dashboard">Dashboard</button>
+    <button class="nav-btn" data-view="categories">Categories</button>
+    <button class="nav-btn" data-view="transactions">Ledger</button>
+    <button class="nav-btn" data-view="goals">Savings Goals</button>
+  </nav>
+  <div class="profile-selector">
+    <label for="profileSelect">Scenario:</label>
+    <select id="profileSelect">
+      <option value="family4">Family of 4</option>
+      <option value="dual">Dual Income (DINK)</option>
+      <option value="single">Single Professional</option>
+    </select>
+  </div>
+</header>
+
+<main class="container">
+  <section id="summaryGrid" class="summary-grid"></section>
+  <section id="chartSection" class="content-panel"></section>
+  <section id="ledgerSection" class="content-panel"></section>
+</main>
+
+<footer class="footer">
+  <p>ZenithBudget Personal &amp; Family Wealth Suite &bull; Client-Side Only &bull; 100% Offline Privacy</p>
+</footer>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
