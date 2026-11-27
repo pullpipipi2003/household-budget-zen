@@ -1,5 +1,5 @@
 [
-  { "file": "1-recipes.jpg", "path": "#/", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-recipe.jpg", "path": "#/recipe/lemon-chickpea-pasta", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-recipe-phone.jpg", "path": "#/recipe/black-bean-tacos", "viewport": { "width": 390, "height": 844 } }
+  { "file": "1-dashboard.jpg", "path": "#/", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "2-planner.jpg", "path": "#/planner", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "3-phone.jpg", "path": "#/ledger", "viewport": { "width": 390, "height": 844 } }
 ]
